@@ -8,6 +8,7 @@ function convertToRoman(num) {
     let romanArr = [];
 
     let ref = [
+        ['MM', 2000],
         ['M', 1000],
         ['CM', 900], // before M
         ['D', 500],
